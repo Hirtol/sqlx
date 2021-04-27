@@ -1260,14 +1260,9 @@ checksum = "c7d73b3f436185384286bd8098d17ec07c9a7d2388a6599f824d8502b529702a"
 
 [[package]]
 name = "libsqlite3-sys"
-<<<<<<< HEAD
-version = "0.21.0"
-source = "git+https://github.com/rusqlite/rusqlite#04d61f7f98f3c6368d9f6c13e2bbe092e886111e"
-=======
-version = "0.22.0"
+version = "0.22.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2f6332d94daa84478d55a6aa9dbb3b305ed6500fb0cb9400cb9e1525d0e0e188"
->>>>>>> upstream/master
 dependencies = [
  "cc",
  "pkg-config",
