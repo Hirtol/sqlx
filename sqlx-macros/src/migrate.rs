@@ -106,7 +106,7 @@ pub(crate) fn expand_migrator_from_dir(dir: LitStr) -> crate::Result<TokenStream
             migrations: ::std::borrow::Cow::Borrowed(&[
                 #(#migrations),*
             ]),
-            ignore_missing: false,
+            ignore_missing: true,
         }
     })
 }
